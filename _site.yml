@@ -7,14 +7,15 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "sample"
+      href: sample.html
 output:
   html_document:
-    theme: cosmo
+    theme: flatly
     highlight: textmate
     include:
       after_body: footer.html
     css: styles.css
-runtime: shiny
 ---
 
   More about this website.
